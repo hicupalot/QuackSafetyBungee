@@ -28,5 +28,6 @@ public class StaffSlingshot implements CommandExecutor {
             }
 
         }
+        return true;
     }
 }
