@@ -1,7 +1,7 @@
 name: QuackSafetyBungee
 version: ${project.version}
 main: com.quacktopia.quacksafetybungee.QuackSafetyBungee
-description: Keeps players safe accross the network
+description: Keeps players safe accross your network
 
 permissions:
  quacksafety.staff:
