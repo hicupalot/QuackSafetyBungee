@@ -1,0 +1,9 @@
+name: QuackSafetyBungee
+version: ${project.version}
+main: com.quacktopia.quacksafetybungee.QuackSafetyBungee
+description: Keeps players safe accross the network
+
+permissions:
+ quacksafety.staff:
+   description: Recive the Staff Broadcasts
+
