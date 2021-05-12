@@ -11,7 +11,7 @@ public class StaffJoinNotifier implements Listener {
         if (e.getPlayer().hasPermission("quacksafety.staff")){
             for (ProxiedPlayer all : ProxyServer.getInstance().getPlayers()) {
                 if (all.hasPermission("quacksafety.staff")) {
-                    all.sendMessage(new TextComponent( ChatColor.RED + "[STAFF]: " + e.getPlayer() + "just logged into Quacktopia on" + e.getPlayer().getServer()));
+                    all.sendMessage(new TextComponent( ChatColor.RED + "[STAFF]: "+ChatColor.GOLD + e.getPlayer() + " just logged into Quacktopia on" + e.getPlayer().getServer()));
                 }
             }
     }

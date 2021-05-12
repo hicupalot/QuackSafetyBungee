@@ -3,7 +3,13 @@ version: ${project.version}
 main: com.quacktopia.quacksafetybungee.QuackSafetyBungee
 description: Keeps players safe accross your network
 
+commands:
+  StaffSlingshot:
+    description: Sends you to the required server
+    usage: /join
+    permission: quacksafety.staff
 permissions:
  quacksafety.staff:
    description: Recive the Staff Broadcasts
+
 
