@@ -11,6 +11,7 @@ public final class QuackSafetyBungee extends JavaPlugin {
         // Plugin startup logic
         System.out.println(ChatColor.GOLD + "[QuackSaftey] QuackSaftey plugin booting up on v" + getDescription().getVersion());
         getServer().getPluginManager().registerEvents(new StaffJoinNotifier(), this);
+        getCommand("slingshot").setExecutor(new StaffSlingshot());
     }
 
     @Override
